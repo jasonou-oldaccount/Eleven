@@ -46,7 +46,8 @@
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:text="Battle the AI"
-            android:background="@drawable/selector_buttons"/>
+            android:background="@drawable/selector_buttons"
+            android:onClick="battleAi"/>
 
         <Button
             android:id="@+id/start_multi"
