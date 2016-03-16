@@ -12,8 +12,37 @@
         android:layout_alignParentTop="true"
         android:gravity="center"
         android:orientation="horizontal">
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/player_one_card_show"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:background="#D3D3D3"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="80sp"/>
+
+    <TextView
+        android:id="@+id/player_two_card_show"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/player_one_card_show"
+        android:layout_centerVertical="true"
+        android:background="#D3D3D3"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="80sp"/>
+
+    <Button
+        android:id="@+id/restart_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="RESTART"
+        android:onClick="restartActivity"/>
 
     <LinearLayout
         android:id="@+id/player_one_view"
@@ -22,7 +51,6 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:orientation="horizontal">
-
     </LinearLayout>
 
 </RelativeLayout>
