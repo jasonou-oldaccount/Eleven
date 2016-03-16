@@ -11,4 +11,5 @@ Players puts down a card each turn and gets a point if their card has a higher v
 The winner is determined by whoever has the most points at the end of the battle!
 
 ## Screenshots
-![Main Screen](http://i.imgur.com/lnPwBPX.jpg)
+![Main Screen](http://i.imgur.com/lnPwBPX.jpg) <br/>
+![AI Game Play](http://i.imgur.com/3Uvn1WY.jpg) <br/>
