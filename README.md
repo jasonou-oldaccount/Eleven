@@ -1,5 +1,5 @@
 # Eleven
-Fast paced, mind boggling card game. Players compete against one another with **11** randomly generated cards in the ultimate battle of wits.
+Fast paced, mind boggling card game of cunning strategries. Players compete against one another with **11** randomly generated cards in the ultimate battle of wits.
 
 ## Rules
 1. Players start off with **11** randomly generated cards. <br/>
@@ -9,3 +9,6 @@ Fast paced, mind boggling card game. Players compete against one another with **
 Players puts down a card each turn and gets a point if their card has a higher value than their opponent's. <br/>
 
 The winner is determined by whoever has the most points at the end of the battle!
+
+## Screenshots
+![Main Screen](http://i.imgur.com/lnPwBPX.jpg)
