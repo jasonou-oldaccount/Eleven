@@ -20,16 +20,20 @@ public class AiActivity extends AppCompatActivity {
     private List<Integer> player_one = new ArrayList<Integer>();
     private List<Integer> player_two = new ArrayList<Integer>();
 
+    // Keeps track of which player's turn it is and whether they played a card yet
     private boolean playerOne;
     private boolean playerOnePlayed = false;
     private boolean playerTwoPlayed = false;
 
+    // Keeps track of the card the user plays
     private int playerOneCard;
     private int playerTwoCard;
 
+    // Keeps track of each player's score
     private int playerOneScore;
     private int playerTwoScore;
 
+    // Keeps track of how many turns have past
     private int turnsPlayed = 0;
 
     @Override
@@ -40,10 +44,6 @@ public class AiActivity extends AppCompatActivity {
         // Creates the hands for player one and two
         player_one = Hand.createHand(player_one);
         player_two = Hand.createHand(player_two);
-
-        // Prints out the hands to check it out
-        Hand.printHand(player_one);
-        Hand.printHand(player_two);
 
         // Dynamically adds the cards into the view
         LinearLayout player_one_view = (LinearLayout) findViewById(R.id.player_one_view);
@@ -94,7 +94,6 @@ public class AiActivity extends AppCompatActivity {
             player.addView(btn, params);
         }
     }
-
 
     // After each round, checks if the game is over
     public void checkGameOver() {

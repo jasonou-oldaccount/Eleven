@@ -8,7 +8,7 @@ Fast paced, mind boggling card game of cunning strategries. Players compete agai
 
 Players puts down a card each turn and gets a point if their card has a higher value than their opponent's. <br/>
 
-The winner is determined by whoever has the most points at the end of the battle!
+The winner is determined by whoever has the most points at the end of the battle!!
 
 ## Screenshots
 ![Main Screen](http://i.imgur.com/lnPwBPX.jpg)
